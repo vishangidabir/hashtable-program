@@ -7,7 +7,7 @@ public class HashTableTest {
 
 	public static void main(String[] args) {
 		System.out.println("Welcome to  HashTable Program!");
-		String string = "To be or not to be";
+		String string = "Paranoids are not paranoid because they are paranoid but because they keep putting themselves deliberately into paranoid avoidable situations ";
 		countFrequency(string);
 	}
 

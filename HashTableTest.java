@@ -13,7 +13,7 @@ public class HashTableTest {
 
 	public static void countFrequency(String string) {
 		Hashtable<String, Integer> hashtable = new Hashtable<>();
-
+		string = string.replace("avoidable", "");
 		String arr[] = string.split(" ");
 
 		for (int i = 0; i < arr.length; i++) {
